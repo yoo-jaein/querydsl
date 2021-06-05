@@ -743,7 +743,7 @@ public class QuerydslBasicTest {
                 .from(member)
 //                .where(member.username.eq(
 //                        Expressions.stringTemplate("function('lower', {0})", member.username))) //소문자로 변경... ansi 표준 함수로 처리하면 결과가 같음
-                .where(member.username.eq(member.username.upper()))
+                .where(member.username.eq(member.username.lower()))
                 .fetch();
 
         for (String s : result) {
