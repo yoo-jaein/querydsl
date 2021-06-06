@@ -18,4 +18,4 @@
 - [X] 섹션 4. 중급 문법
 - [X] 섹션 5. 실무 활용 - 순수 JPA와 Querydsl
 - [X] 섹션 6. 실무 활용 - 스프링 데이터 JPA와 Querydsl
-- [ ] 섹션 7. 스프링 데이터 JPA가 제공하는 Querydsl 기능
+- [X] 섹션 7. 스프링 데이터 JPA가 제공하는 Querydsl 기능
